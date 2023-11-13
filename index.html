@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Password Generator</title>
+</head>
+
+<body class="bg-blue-950">
+    <div class="h-[90vh] flex justify-center items-center gap-5">
+        <div class="p-3 border rounded-md md:w-[35%] w-[75%] gap-11">
+            <div class="text-center text-white text-2xl">
+                Password Generator
+            </div>
+            <div class="w-full flex md:flex-col flex-row justify-center items-center md:p-2 p-1">
+                <div class="w-4/5 flex flex-col justify-center items-center">
+                    <input placeholder="click on generate button" id="pass"
+                        class="bg-white p-1 w-full text-black rounded-md outline-none" />
+                    <div class="flex flex-col justify-center items-center md:flex-row gap-5 md:p-2 w-full pt-7">
+                        <button id="btn" class="p-1 bg-purple-500 md:w-1/2 rounded-md text-white text-sm font-bold h-1/2">
+                            Generate
+                        </button>
+                        <button id="copy" class="p-1 bg-purple-500 md:w-1/2 rounded-md text-white text-sm font-bold h-1/2">
+                            Copy To Clipboard
+                        </button>
+                    </div>
+
+                    <div class="w-full flex flex-col justify-center items-center pt-5">
+                        <div class="flex justify-between w-full md:flex-row flex-col items-center">
+                            <p class="text-white md:p-0 pb-5">Password Length</p>
+                            <input class="md:w-[80px] w-full outline-none p-1 rounded-md" type="number" name="" id="total-num">
+                        </div>
+                        <div class="flex justify-between w-full pt-3">
+                            <p class="text-white">Include uppercase letters</p>
+                            <input type="checkbox" name="" id="uppercase" checked />
+                        </div>
+                        <div class="flex justify-between w-full pt-3">
+                            <p class="text-white">Include lowerrcase letters</p>
+                            <input type="checkbox" name="" id="lowercase" />
+                        </div>
+                        <div class="flex justify-between w-full pt-3">
+                            <p class="text-white">Include numbers</p>
+                            <input type="checkbox" name="" id="numbers" />
+                        </div>
+                        <div class="flex justify-between w-full pt-3">
+                            <p class="text-white">Include symbols</p>
+                            <input type="checkbox" name="" id="symbols" />
+                        </div>
+                    </div>
+                    <!-- <div class="flex w-full">
+                            <div class="flex flex-col w-full justify-between">
+                                <p>Password Length</p>
+                                <p>Include uppercase letters</p>
+                                <p>Include lowerrcase letters</p>
+                                <p>Include numbers</p>
+                                <p>Include symbols</p>
+                            </div>
+                            <div class="flex flex-col justify-between">
+                                <input class="w-[100px]" type="number" name="" id="total-num" />
+                                <input type="checkbox" name="" id="uppercase" checked />
+                                <input type="checkbox" name="" id="lowercase" />
+                                <input type="checkbox" name="" id="numbers" />
+                                <input type="checkbox" name="" id="symbols" />
+                            </div>
+                            </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
