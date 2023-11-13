@@ -3,6 +3,9 @@
 
 Password generator can generate random Password according to the user's choice.
 
+# Live Link
+
+https://password-generator-raktimmaity.vercel.app/
 
 ## Features
 
@@ -15,7 +18,7 @@ Password generator can generate random Password according to the user's choice.
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/1f2pYapuvIEVm60CEMd92Q3ZKyjnfNt7S/view?usp=sharing)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Authors
